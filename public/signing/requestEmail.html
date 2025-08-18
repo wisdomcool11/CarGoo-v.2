@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Email</title>
+  <!-- styles -->
+    <link href="../styles.css" rel="stylesheet">
+
+    <!-- AOS animation on scroll  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/9753f25b53.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="bg-stone-800">
+    
+    <div class="relative bg-stone-800 h-screen w-full">
+        <div class=" bg-[#ee8f00] w-80 h-96 rounded-e-full"> </div>
+        
+        <!-- main container -->
+        
+        <div class="container w-full absolute top-[10%] md:left-[3%] tranform translate-[-50%, -50%] bg-slate-50 rounded rounded-2xl p-3 md:p-8 ">
+
+            <div >
+
+                <header class=" relative bg-stone-800 w-full rounded-xl p-2 text-white font-normal flex justify-center items-center gap-2" data-aos="fade-down" data-aos-easing ="linear" data-aos-duration="1500" >
+
+                    <!-- holds the page title and the nav container together -->
+                    <div class="flex flex-col md:flex-row items-start justify-center md:items-center md:gap-14   px-2  md:w-[600px]">
+
+                        <!-- webpage name -->
+                        <div class="flex justify-center gap-1 items-center md:px-2 h-full w-max">
+                            
+                            <i class="fa-solid fa-location-dot text-[#ee8f00] text-lg sm:text-4xl md:5xl "> </i>
+
+                            <a href="/public/index.html">
+                                <h1 class="font-['PT Sans', sans-serif] font-bold text-md sm:text-xl md:text-xl ">
+                                    CarGoo
+                                </h1>
+                            </a>
+
+                        </div>
+    
+                        <!-- nav --> 
+                        <nav class="nav_menu md:block absolute top-[100%] left-0 z-10 md:relative md:top-0  bg-stone-800 w-full text-slate-300 font-['PT Sans', sans-serif] font-normal py-2 px-2  mt-2 rounded rounded-b-lg ">
+
+                            <ul class="flex flex-row md:justify-around w-full justify-between md:items-center  ">
+
+                                <li class="list_style "><a href="#" class="text-white hover:text-[#ee8f00] md:px-4  "> Home </a>
+                                </li>
+
+                                <li class="list_style"><a href="/public/about_us.html" >About</a>
+                                </li>
+
+                                <li class="list_style"><a href="/public/service.html" class=" md:px-4 " >Services</a></li>
+
+                                <li class="list_style"><a href="/public/blog.html" class=" md:px-4 ">Blog</a></li>
+
+                                <li class="list_style"><a href="/public/contact_us.html"  class=" md:px-4 ">Contact</a></li>
+
+                            </ul>
+                        </nav>
+                        
+                    </div>
+
+                    <!--nav button -->
+                    <div class="w-[200px] flex flex-row justify-between items-center md:px-4 text-xs md:text-base md:w-80 gap-1 ">
+
+                        <a href="/public/signing/log.html" class=" 
+                        py-2 px-3 md:px-3  hover:bg-[#ee8f00] hover:text-stone-800 hover:font-semibold  
+                        hover:rounded-full transform hover:scale-[1.03] active:translate-y-[4px] 
+                        transition ease-in-out duration-150 " > 
+                            Sign In
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </a>
+
+                        <a href="/public/contact_us.html" class=" 
+                        py-2 px-3 md:px-3 bg-[#ee8f00] hover:bg-transparent hover:text-white text-stone-800 
+                        font-semibold active:text-[#ee8f00] md:mx-2 rounded-full transform hover:scale-[1.03] 
+                        active:translate-y-[4px] transition ease-in-out duration-150  ">
+                            Contact Us
+
+                            <i class="fa-solid fa-phone"></i> <!--phone icon -->
+                        </a>
+
+                    </div>
+
+                    <!-- toggle bar/burger -->
+                    <div class="toggle_bar"></div>
+                      
+
+                </header><!--ending of header-->
+
+            </div>
+
+             <!-- Hero section -->
+            <section class=" w-full my-14 space-y-14  ">   
+
+                <div class="hero__container w-full h-[13.125rem] md:h-[25rem] flex  flex-col md:flex-row gap-7 md:gap-1 justify-center items-center border rounded-b-xl py-24 md:py-0">
+                    <!-- hero section with a huge image and content on it -->
+                     
+                    <div class=" w-full text-white pl-6 md:pl-6 space-y-36 "> 
+
+                        <div class=" w-full flex flex-col gap-8 overflow-hidden">
+
+                            <!-- hero content -->
+
+                            <h1 class="text-4xl md:text-6xl text-white font-extrabold  " data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                                Request
+                                <span class=" text-[#ee8f00]">Email</span>
+                            </h1>
+
+
+                            <div>
+                                <a href="/public/index.html"><span class=" text-[#ee8f00] font-semibold text-base hover:underline " data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">Home</span></a> /
+                                <a href="#" class="text-base font-extrabold"data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">Request Password</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div> <!-- end of hero section -->
+
+            </section>
+
+                        <!-- signing section -->
+            <section class="signingSection bg-stone-150 py-15 px-1 md:px-8 w-full flex flex-col md:flex justify-center items-center gap-4 ">
+
+                <div class="w-full h-[350px] flex flex-col md:flex-row  justify-center items-center py-5 gap-9 space-x-0 md:space-x-3">
+                   
+                    <div class="forms-request-email h-full md:h-[300px] md:w-[75%] ">
+
+                        <!-- Reset password form  -->
+                        <form id="request--password__email" class="signUp flex flex-col justify-center items-center" >
+                            
+                            <!-- first name -->
+                            <div class="input-control flex flex-col justify-center items-center">
+                                <input type="text" placeholder="Your Email" id="request-email" name="email" required />
+                                <div class="error"></div>
+                            </div>
+
+                            <button type="submit" id="form-btn" class="request-Btn">
+                               Reset Link
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+                
+            </section>
+
+
+            <!-- footer section -->
+            <footer class="bg-stone-800 pt-20 px-2 md:px-8 w-full h-full md:h-full">
+                <!-- top footer -->
+
+                <div class="flex flex-col justify-center items-center text-center md:text-left md:grid md:grid-cols-4 gap-12 pb-10 ">
+
+                    <!-- first section -->
+                    <div class=" w-full h-full text-stone-200 flex flex-col items-center  justify-center  pace-y-5 ">
+
+                        <div class="flex justify-start items-center gap-3 items-center md:px-2 h-full text-center ">
+                            
+                            <i class="fa-solid fa-location-dot text-[#ee8f00] text-5xl md:text-4xl "> </i>
+
+                            <div class="flex flex-col ">
+                                <h1 class="font-['PT Sans', sans-serif] font-bold text-md text-4xl  ">
+                                    CarGoo
+                                </h1>
+    
+                                <p class="text-xs md:text-md ml-10 font-bold">
+                                    Logistics & <span class="text-[#ee8f00]">Cargo</span>
+                                </p>
+                            </div>
+    
+                        </div>
+
+                        <p class="leading-7 md:leading-8 text-sm md:text-base ">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus qui ad aliquam rerum! Architecto amet id aperiam, totam nemo debitis.
+                        </p>
+
+                        <!-- footer social medies -->
+                        <div class="w-full flex justify-center md:justify-start items-center gap-3 ">
+                            <a href="#"><i class="fa-brands fa-facebook social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram social-media-footer"></i></a>
+                        </div>
+                        
+                    </div>
+
+                    <!-- second footer section -->
+                    <div class=" w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Our Services
+                        </h3>
+        
+                        <ul class=" text-stone-200 text-sm md:text-base space-y-3 list-image-[url(../imgs/icons/check-mark.png)] list-inside font-semibold">
+                            <li><a href="/public/sub-services/export_&_import_service.html">
+                                Export & import
+                            </a></li>
+                            <li><a href="/public/sub-services/domestic_logistic_service.html">
+                                Domestic Logistic
+                            </a></li>
+                            <li><a href="/public/sub-services/customer_clearance_service.html">
+                                Customer Clearance
+                            </a></li>
+                            <li><a href="/public/sub-services/truck_freight.html">
+                                Trucking Feight
+                            </a></li>
+                            <li><a href="/public/sub-services/air_freight.html">
+                                Air Freight
+                            </a></li>
+                            <li><a href="/public/sub-services/ocean_freight.html">
+                                Ocean Freight
+                            </a></li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Third footer section -->
+                    <div class=" w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Our Support
+                        </h3>
+        
+                        <ul class=" text-stone-200 text-sm md:text-base space-y-3 list-image-[url(../imgs/icons/check-mark.png)] list-inside font-semibold">
+                            <li><a href="/public/service.html">Services</a></li>
+                            <li><a href="/public/single_blog.html">FAQs</a></li>
+                            <li><a href="/public/contact_us.html">Contact</a></li>
+                            <li><a href="/public/about_us.html">Terms & Conditions</a></li>
+                            <li><a href="/public/about_us.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- forth footer section -->
+                    <div class="w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Contact Info
+                        </h3>
+        
+                       <!-- contact info content -->
+                       <div class="pl-1 md:pl-3 space-y-6  mt-4">
+
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start  gap-4 ">
+                                <!-- Address div -->
+                                <i class="fa-solid fa-house-user text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Address </h4>
+                                    <p class="text-sm md:text-md text-[#ee8f00] ">99 Roving St., Big City, PKU 23456</p>
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start gap-4 ">
+                                <!-- phone number div -->
+
+                                <i class="fa-solid fa-phone text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Phone Number </h4>
+                                    <p class="text-sm md:text-md text-[#ee8f00] ">123-234-1234</p>
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start gap-4 ">
+                                <!-- phone number div -->
+
+                                <i class="fa-regular fa-envelope text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Email Address </h4>
+
+                                    <p class="text-sm md:text-md text-[#ee8f00]">
+                                        hello@awesomesite.com
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- down footer -->
+                <div class="w-full h-full  border-t-2 border-slate-50 py-5 flex items-center ">
+                    <p class="w-full text-center text-gray-50 text-xs md:text-sm capitalized tracking-wide ">
+                        Copyright 2022 &copy; All Right Resevered Design by WizzyBaby
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+
+
+    </div>
+
+    <!-- AOS cdn script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Script -->
+    <script src="/src/app.js"></script>
+</body>
+</html>

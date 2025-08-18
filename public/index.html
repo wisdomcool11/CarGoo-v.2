@@ -1,0 +1,1149 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarGoo</title>
+  <!-- styles -->
+    <link href="./styles.css" rel="stylesheet">
+
+    <!-- AOS animation on scroll  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/9753f25b53.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="bg-stone-800">
+    
+    <div class="relative bg-stone-800 h-screen w-full">
+        <div class=" bg-[#ee8f00] w-80 h-96 rounded-e-full"> </div>
+        
+        <!-- main container -->
+        <div class="container w-full absolute top-[10%] md:left-[3%] tranform translate-[-50%, -50%] bg-slate-50 rounded-2xl p-3 md:p-8 ">
+
+            <div >
+
+                <header class="relative bg-stone-800 w-full rounded-xl p-2 text-white font-normal flex justify-center items-center gap-2 " data-aos="fade-down" data-aos-easing ="linear" data-aos-duration="1500" >
+
+                    <!-- holds the page title and the nav container together -->
+                    <div class="flex flex-col md:flex-row items-start justify-center md:items-center md:gap-14   px-2  md:w-[600px]">
+
+                        <!-- webpage name -->
+                        <div class="flex justify-center gap-1 items-center md:px-2 h-full w-max">
+                            
+                            <i class="fa-solid fa-location-dot text-[#ee8f00] text-lg sm:text-4xl md:5xl "> </i>
+
+                            <a href="/public/index.html">
+                                <h1 class="font-['PT Sans', sans-serif] font-bold text-md sm:text-xl md:text-xl ">
+                                    CarGoo
+                                </h1>
+                            </a>
+
+                        </div>
+    
+                        <!-- nav --> 
+                        <nav class="nav_menu md:block absolute top-[100%] left-0 z-10 md:relative md:top-0  bg-stone-800 w-full text-slate-300 font-['PT Sans', sans-serif] font-normal py-2 px-2  mt-2 rounded rounded-b-lg ">
+
+                            <ul class="flex flex-row md:justify-around w-full justify-between md:items-center  ">
+
+                                <li class="list_style "><a href="#" class="text-white hover:text-[#ee8f00] md:px-4  "> Home </a>
+                                </li>
+
+                                <li class="list_style"><a href="about_us.html" >About</a>
+                                </li>
+
+                                <li class="list_style"><a href="service.html" class=" md:px-4 " >Services</a></li>
+
+                                <li class="list_style"><a href="blog.html" class=" md:px-4 ">Blog</a></li>
+
+                                <li class="list_style"><a href="contact_us.html"  class=" md:px-4 ">Contact</a></li>
+                                
+                            </ul>
+                        </nav>
+                        
+                    </div>
+
+                    <!--nav button -->
+                    <div class="w-[200px] flex flex-row justify-between items-center md:px-4 text-xs md:text-base md:w-80 gap-1 ">
+
+                        <a href="/public/signing/log.html" class=" 
+                        py-2 px-3 md:px-3  hover:bg-[#ee8f00] hover:text-stone-800 hover:font-semibold  
+                        hover:rounded-full transform hover:scale-[1.03] active:translate-y-[4px] 
+                        transition ease-in-out duration-150 " > 
+                            Sign In
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </a>
+
+                        <a href="/public/contact_us.html" class=" 
+                        py-2 px-3 md:px-3 bg-[#ee8f00] hover:bg-transparent hover:text-white text-stone-800 
+                        font-semibold active:text-[#ee8f00] md:mx-2 rounded-full transform hover:scale-[1.03] 
+                        active:translate-y-[4px] transition ease-in-out duration-150  ">
+                            Contact Us
+
+                            <i class="fa-solid fa-phone"></i> <!--phone icon -->
+                        </a>
+
+                    </div>
+
+                    <div class="toggle_bar"></div>
+                      
+
+                </header><!--ending of header-->
+
+            </div>
+
+            <!-- Hero section -->
+
+            <!-- new here just with html && css  -->
+            <section class="hero_sec">
+
+                <div class="hero_content">
+                    
+                    <!-- Hero context up -->
+                    <div class="hero_context">
+                        <h4>CarGoo Express Cargo</h4>
+        
+                        <h1>
+                            Delivery Service
+                            <span class="orange-span">Trusted</span> Logistics
+                        </h1>
+        
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere excepturi optio numquam praesentium temporibus delectus
+                        </p>
+        
+                        <!-- Here CTA button -->
+                        <div class="hero_cta">
+        
+                            <button class="cta_btn about-cta">
+                                About Us
+                            </button>
+        
+                            <button class="cta_btn servic-cta">
+                                Our Service
+                            </button>
+        
+                        </div>
+                    </div>
+        
+                    <!-- hero icon down -->
+                    <div class="hero_icon">
+        
+                        <a href="ocen_freight.html">
+                            <span >
+                                <i class="fa-solid fa-water"></i>
+            
+                                <h4>Sea Freight</h4>
+                            </span>
+                        </a>
+        
+                        <a href="air_freight.html">
+                            <span >
+                                <i class="fa-solid fa-plane-arrival"></i>
+            
+                                <h4>Air Freight</h4>
+                            </span>
+                        </a>
+        
+                        <a href="truck_freight.html">
+                            <span >
+                                <i class="fa-solid fa-truck-ramp-box"></i>
+            
+                                <h4>Trucking</h4>
+                            </span>
+                        </a>
+        
+                        <a href="domestic_logistic.html">
+                            <span >
+                                <i class="fa-solid fa-house"></i>
+            
+                                <h4>Warehousing</h4>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- hero image -->
+                <div class="hero_img">
+                    <img src="/src/imgs/F2.png" loading="lazy" alt="ship Delivery personnel">
+                </div>
+            </section>
+
+            <!-- export and import section -->
+            <section class="bg-stone-150 w-full h-full py-20 flex flex-col md:flex-row md:justify-center md:items-center  md:pr-38 " >
+
+                <!-- containe wrapper -->
+                <div class="flex flex-col md:flex-row md:justify-center md:items-center space-y-14 overflow-hidden"> 
+
+                    <!-- img section -->
+                    <div class="w-full relative text-white ">
+    
+                        <img src="/src/imgs/P2.jpg" loading="lazy" alt="two Delivery personnel checking their list" class="h-screen w-full object-cover  rounded rounded-lg " data-aos="fade-up" data-aos-duration="1000">
+                        
+                        <div class="bg-[#ee8f00] w-[180px] md:w-[230px] flex flex-col justify-around items-center py-3 md:py-7 px-4 md:px-8 border-r-8 border-t-8 border-b-8 border-white rounded-lg  absolute top-[66%] -left-5 md:left-[-7px] " data-aos="fade-up-right"   data-aos-delay="200" data-aos-duration="1000">
+                            <!-- img card  -->
+                            <i class="fa-solid fa-box-open text-3xl md:text-5xl"></i>
+    
+                            <span class="text-4xl md:text-5xl font-bold ">
+                                0<sup>+</sup>
+                            </span>
+    
+                            <h5 class="font-bold">Delivery Goods</h5> 
+                        </div>
+                    </div>
+    
+                    <div class="w-full mt-10px md:mt-0 text-stone-800 space-y-10  pl-3 md:pl-14" > <!---content-->
+    
+                        <h4 class="font-extrabold text-[#ee8f00] text-sm tracking-[6px] uppercase " data-aos="fade-up-left" data-aos-duration="1100">
+                            Why Chose Us
+                        </h4>
+    
+                            
+                        <h2 class="text-3xl md:text-5xl font-extrabold " data-aos="fade-up-left"   data-aos-delay="200" data-aos-duration="1100">
+                            We 
+                            <span class=" text-[#ee8f00]">Export & Import</span> Goods all Over The World
+                        </h2>
+    
+                        <!-- section content -->
+                        <div class=" w-full  text-left md:text-justify md:pr-2 space-y-4 " data-aos="fade-up-left"   data-aos-delay="200" data-aos-duration="1000">
+    
+                            <p class="w-full px-2 text-stone-500 ">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque volutpat ipsum dolor, vitae venenatis dolor posuere quis.
+                            </p>
+    
+                            <p class="w-full px-2 text-stone-500 " >
+                                In vel orci id magna vulputate iaculis. Donec a ex eget ex pretium consectetur at non elit. Suspendisse justo ante, mollis a ornare vitae, vestibulum quis lacus. Phasellus eget orci eu libero sodales convallis. Donec vel purus laoreet, mattis metus ac, lacinia orci.
+                            </p>
+                        </div>
+                        
+                        
+                        <!--card wrapper-->
+                        <div class=" flex flex-col md:flex-row gap-4 w-full py-8 px-8 md:px-0 overflow-hidden">
+                            
+                            <!--card 1-->
+                            <div class="bg-white shadow-xl rounded rounded-lg  flex h-auto md:h-40 w-auto md:w-80 py-6 px-3"data-aos="fade-up-left" data-aos-duration="2000" > 
+                                <i class="fa-solid fa-gear text-xl md:text-3xl  text-[#ee8f00] "></i>
+    
+                                <div class="pl-3 space-y-3 ">
+                                    <h3 class="text-2xl font-bold ">Live Chat 24 Hours</h3>
+        
+                                    <p class="text-stone-500 ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis
+                                    </p>
+                                </div>
+    
+                            </div> <!--end of card 1-->
+    
+                            <!--card 2-->
+                            <div class="bg-[#ee8f00] shadow-xl rounded rounded-lg  flex  w-auto md:w-80 py-6 px-3 text-stone-200 " data-aos="fade-up-left"   data-aos-delay="400" data-aos-duration="2000"> 
+                                <i class="fa-solid fa-gear text-xl md:text-3xl text-white "></i>
+    
+                                <div class="pl-3 space-y-3 ">
+                                    <h3 class=" text-2xl md:text-3xl font-bold ">Import Export Agent</h3>
+        
+                                    <p class="text-stone-200 ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis
+                                    </p>
+                                </div>
+    
+                            </div> <!--end of card 2-->
+    
+                        </div> <!--end of card container-->
+    
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <!-- section 2 about us -->
+            <section class="bg-white w-full h-full py-20 flex flex-col md:flex-row md:justify-center md:items-center  md:pr-38 " >
+
+                <!-- containe wrapper -->
+                <div class="flex flex-col md:flex-row-reverse md:justify-center md:items-center space-y-14">
+
+                    <!-- img section -->
+                    <div class="w-full relative text-white " data-aos="zoom-in" data-aos-duration="1500">
+    
+                        <img src="/src/imgs/P3.jpg" loading="lazy" alt="two Delivery personnel checking their list" class="h-screen w-full object-cover rounded rounded-lg ">
+                        
+                        <div class="bg-[#ee8f00] w-[180px] md:w-[230px] flex flex-col justify-around items-center py-3 md:py-7 px-4 md:px-8 border-l-8 border-t-8 border-b-8 border-white rounded-lg  absolute top-[2%] right-[-12px] " data-aos="fade-up-right"   data-aos-delay="100" data-aos-duration="1500">
+                            <!-- img card  -->
+    
+                            <span class="text-4xl md:text-5xl font-bold ">
+                                0<sup>+</sup>
+                            </span>
+    
+                            <h5 class="font-bold text-center ">Client Export Import</h5> 
+                        </div>
+                        
+                        <div class="bg-stone-800 w-[180px] md:w-[230px] flex flex-col justify-around items-center py-3 md:py-7 px-4 md:px-8 border-r-8 border-t-8 border-b-8 border-white rounded-lg  absolute top-[73%] left-[-18px] " data-aos="fade-up-left"   data-aos-delay="200" data-aos-duration="1500">
+                            <!-- img card  -->
+    
+                            <span class="text-4xl md:text-5xl font-bold ">
+                                45<sup>+</sup>
+                            </span>
+    
+                            <h5 class="font-bold 5xl ">Shipping Fleet</h5> 
+                        </div>
+
+                    </div>
+    
+                    <div class="w-full text-stone-800 space-y-10 md:pl-5  md:pr-14" > <!---content-->
+    
+                        <h4 class="font-extrabold text-[#ee8f00] text-sm tracking-[6px] uppercase " data-aos="zoom-in" data-aos-duration="2000">
+                            About Us
+                        </h4>
+    
+                            
+                        <h2 class="text-3xl md:text-5xl font-extrabold  " data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="2000">
+                            We Have More Than 20 Years Of 
+                            <span class=" text-[#ee8f00]">Experience</span> 
+                        </h2>
+    
+                        <!-- section content -->
+                        <div class=" w-full  text-left md:text-justify md:pr-2 space-y-4 ">
+    
+                            <p class="w-full px-2 text-stone-500 " data-aos="zoom-in" data-aos-duration="1100">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque volutpat ipsum dolor, vitae venenatis dolor posuere quis.
+                            </p>
+    
+                            <p class="w-full px-2 text-stone-500 " data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="1100">
+                                In vel orci id magna vulputate iaculis. Donec a ex eget ex pretium consectetur at non elit. Suspendisse justo ante, mollis a ornare vitae, vestibulum quis lacus. Phasellus eget orci eu libero sodales convallis. Donec vel purus laoreet, mattis metus ac, lacinia orci.
+                            </p>
+                        </div>
+                        
+                        <!--about us button wrapper -->
+                        <div class=" flex flex-row justify-around items-center w-full md:w-80 text-xs md:text-base md:w-full gap-3 overflow-hidden p-8">
+    
+                            <a href="contact_us.html" data-aos="fade-up" data-aos-duration="2000">
+
+                                <button class=" py-3 px-3 md:py-4 md:px-4 w-28 md:w-40 bg-[#ee8f00] hover:border-2 hover:border-[#ee8f00] hover:bg-transparent font-bold hover:font-semibold rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] transition ease-in-out duration-150  "> 
+                                    Contact Us
+    
+                                    <i class="fa-solid fa-phone"></i> <!--phone icon -->
+    
+                                </button>
+        
+                            </a>
+
+                            <a href="about_us.html" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
+
+                                <button class=" w-28 md:w-40  py-3 md:py-4 px-3 md:px-4 hover:bg-[#ee8f00] bg-transparent border-2 border-[#ee8f00] hover:text-white font-bold hover:font-semibold active:text-[#ee8f00] md:mx-2 rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] transition ease-in-out duration-150  ">
+                                    Our Portfolio
+                                </button>
+                            </a>
+    
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <!-- section why choose us -->
+            <section class="bg-stone-150 py-20 px-2 md:px-8 w-full h-full " >
+
+                <!-- section context -->
+                <div class="w-full flex flex-col justify-center items-center space-y-10 ">
+
+                    <h4 class=" font-extrabold text-[#ee8f00] text-sm tracking-[5px] uppercase " data-aos="zoom-in" data-aos-duration="1000">
+                        Why Chose Us
+                    </h4>
+                        
+                    <h2 class="w-full md:w-[55%] text-4xl md:text-6xl font-extrabold leading-15 text-center" data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="1000">
+                        Competitive &  
+                        <span class=" text-[#ee8f00]">Fast Service</span> For You
+                    </h2>
+
+                    <!-- section content -->
+                    <div class="w-full md:w-[60%] text-left md:text-justify space-y-4 pb-6 " data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="2000">
+
+                        <p class="w-full text-base text-center px-2 text-stone-500 ">
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque volutpat ipsum dolor, vitae venenatis dolor posuere quis.
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class=" w-full p-4 flex flex-col md:flex-row justify-center items-center gap-6">
+
+                    <!-- card img 1 -->
+                    
+                    <div class="box_card card__img--1 " >
+
+                        <img src="/src/imgs/port-de-barcelona.jpg" loading="lazy" alt=" ship port img" class="w-full h-full block object-cover " data-aos="zoom-in" data-aos-duration="1400">
+
+                        <div class="card_overlay bg-gradient-to-t from-[#ee8f00] to-white opacity-80 " >
+
+                            <div class="card_hover space-y-4">
+
+                                <div class="card__hover--txt">
+                                    Export & Import Service
+                                </div>
+    
+                                <a href="export_&_import_service.html">
+
+                                    <button class=" md:w-40  py-3 md:py-4 px-3 md:px-4 bg-stone-800 hover:bg-stone-600 border-none text-white font-bold hover:font-semibold active:text-[#ee8f00] md:mx-2 rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] text-md transition ease-in-out duration-150  " >
+                                        View Services
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <!-- card img 2 -->
+                    <div class="box_card card__img--1 " >
+
+                        <img src="/src/imgs/bg_img.jpg" loading="lazy" alt=" ship port img" class="w-full h-full block object-cover " data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="1400">
+
+                        <div class="card_overlay bg-gradient-to-t from-[#ee8f00] to-white opacity-80 " >
+
+                            <div class="card_hover space-y-4">
+
+                                <div class="card__hover--txt">
+                                    Air Frieght
+                                </div>
+    
+                                <a href="air_freight.html">
+
+                                    <button class=" md:w-40  py-3 md:py-4 px-3 md:px-4 bg-stone-800 hover:bg-stone-600 border-none text-white font-bold hover:font-semibold active:text-[#ee8f00] md:mx-2 rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] text-md transition ease-in-out duration-150  " >
+                                        View Services
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <!-- card img 3 -->
+                    <div class="box_card card__img--1  " >
+
+                        <img src="/src/imgs/ship_port.jpg" loading="lazy" alt=" close-up-delivery-person-with-parcels" class="w-full h-full block object-cover " data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="1400">
+
+                        <div class="card_overlay bg-gradient-to-t from-[#ee8f00] to-white opacity-80 " >
+
+                            <div class="card_hover space-y-4">
+
+                                <div class="card__hover--txt">
+                                    Trucking Freight
+                                </div>
+    
+                                <a href="truck_freight.html">
+
+                                    <button class=" md:w-40  py-3 md:py-4 px-3 md:px-4 bg-stone-800 hover:bg-stone-600 border-none text-white font-bold hover:font-semibold active:text-[#ee8f00] md:mx-2 rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] text-md transition ease-in-out duration-150  " >
+                                        View Services
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- consulting service -->
+            <section class=" w-full my-14 space-y-14  ">   
+
+                <div class="hero__container w-full flex  flex-col md:flex-row-reverse gap-7 md:gap-1 justify-center items-center border rounded-b-xl py-24 md:py-0 overflow-hidden">
+                    <!-- hero section with a huge image and content on it -->
+                     
+                    <div class=" w-full text-white pl-6 md:pl-6 space-y-36 "> 
+
+                        <div class=" w-full flex flex-col gap-8">
+    
+                            <h1 class="text-4xl md:text-6xl text-white font-bold  " data-aos="fade-up-left" data-aos-duration="2000">
+                                Consult The Service You
+                                <span class=" text-[#ee8f00]">Need Now!</span>
+                            </h1>
+    
+                            <p class="w-full px-2 md:w-[80%]" data-aos="fade-up-left"   data-aos-delay="200" data-aos-duration="2000">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere excepturi optio numquam praesentium temporibus delectus
+                            </p>
+
+                            <ul class="w-full flex flex-col md:flex-row justify-around items-start text-md md:text-lg font-semibold md:font-bold list-image-[url(imgs/icons/check-mark.png)] list-inside  gap-3 ">
+
+                                <li class="list " data-aos="fade-up-left" data-aos-duration="2000">
+                                    <a href="#">Fast Delivery</a>
+                                </li>
+                               
+                                <li class="list"  data-aos="fade-up-left"   data-aos-delay="200" data-aos-duration="2000">
+                                    <a href="#">Competitive Price </a>
+                                </li>
+
+                                <li class="list"  data-aos="fade-up-left"   data-aos-delay="400" data-aos-duration="2000">
+                                    <a href="#">Wide Delivery Area</a>
+                                </li>
+                            </ul>
+    
+                            <!-- Hero button wrapper -->
+                            <div class=" flex flex-row justify-start items-center w-full md:w-80 text-xs md:text-base md:w-80 gap-3">
+    
+                                <a href="about_us.html"  data-aos="fade-up-left"   data-aos-delay="400" data-aos-duration="2000">
+
+                                    <button class=" py-3 px-3 md:py-4 md:px-4 w-28 md:w-40 bg-[#ee8f00] hover:border-2 hover:border-[#ee8f00] hover:bg-transparent hover:font-semibold rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] transition ease-in-out duration-150  "> 
+                                        About Us
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- hero img -->
+                    <div class="w-full h-full relative hidden md:block ">
+                        <img src="/src/imgs/F2.png" loading="lazy"  alt="ship Delivery personnel" class="object-contain object-left "  data-aos="fade-up-right"   data-aos-delay="200" data-aos-duration="1200">
+                    </div>
+
+                </div> <!-- end of hero section -->
+
+            </section>
+
+            <!-- Testimonial section -->
+            <section class="bg-stone-150 py-20 px-2 md:px-8 w-full h-full">
+
+                <div class="flex flex-col md:flex-row gap-4 overflow-hidden">
+
+                    <div class="flex flex-col gap-5 w-full">
+                        <h4 class="font-extrabold text-[#ee8f00] text-sm tracking-[5px] uppercase "  data-aos="slide-right" data-aos-duration="2000">
+                            Testimonials
+                        </h4>
+
+                        <h2 class="text-4xl md:text-6xl text-stone-800 font-bold "  data-aos="slide-right"   data-aos-delay="200" data-aos-duration="2000">
+                            Whats Our <span class=" text-[#ee8f00]">Clients </span> Said About Us
+                        </h2>
+
+                    </div>
+
+                    <div class="w-full space-y-5 overflow-hidden">
+
+                        <p class="text-stone-500"  data-aos="slide-left"   data-aos-delay="1000" data-aos-duration="2000">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque volutpat ipsum dolor, vitae venenatis dolor posuere quis.
+                        </p>
+
+                        <div class=" flex flex-row justify-start items-center w-full md:w-full text-xs md:text-base md:w-80 gap-3" data-aos="slide-left"   data-aos-delay="800" data-aos-duration="2000">
+    
+                            <a href="about_us.html"  >
+
+                                <button class=" py-3 px-3 md:py-4 md:px-4 w-28 md:w-40 bg-[#ee8f00] hover:border-2 hover:border-[#ee8f00] hover:bg-transparent hover:font-semibold rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] text-white font-bold hover:text-stone-800  transition ease-in-out duration-150  "> 
+                                    About Us
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- testimonial card wrapper -->
+                <div class="w-full text-base pt-24 px-4 md:px-2 text-stone-400 flex flex-col md:flex-row gap-3 overflow-hidden">
+
+                    <!-- testimonial card 1 -->
+                    <div class="testimonial_wrap " data-aos="zoom-in" data-aos-duration="2000">
+                        <!-- start icons -->
+                        <div class="w-full">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="font-semibold text-md md:text-lg italic ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. 
+                        </p>
+
+                        <div class="w-full flex justify-between items-center">
+                            <!-- card name and occupation -->
+                            <div class="flex flex-col ">
+                                <span class="text-stone-800 text-lg font-semibold">
+                                    Colt Porter 
+                                </span>
+
+                                <span class="text-[#ee8f00] text-lg font-semibold" >
+                                    CEO | Founder
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-quote-right text-xl md:text-3xl md:text-5xl text-[#ee8f00]"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial_wrap  " data-aos="zoom-in"   data-aos-delay="300" data-aos-duration="2000">
+                        <!-- start icons -->
+                        <div class="w-full">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="font-semibold text-md md:text-lg italic ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. 
+                        </p>
+
+                        <div class="w-full flex justify-between items-center">
+                            <!-- card name and occupation -->
+                            <div class="flex flex-col ">
+                                <span class="text-stone-800 text-lg font-semibold">
+                                    Colt Porter 
+                                </span>
+
+                                <span class="text-[#ee8f00] text-lg font-semibold" >
+                                    CEO | Founder
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-quote-right text-xl md:text-3xl md:text-5xl text-[#ee8f00]"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial_wrap  " data-aos="zoom-in"   data-aos-delay="500" data-aos-duration="2000">
+                        <!-- start icons -->
+                        <div class="w-full">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="font-semibold text-md md:text-lg italic ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. 
+                        </p>
+
+                        <div class="w-full flex justify-between items-center">
+                            <!-- card name and occupation -->
+                            <div class="flex flex-col ">
+                                <span class="text-stone-800 text-lg font-semibold">
+                                    Colt Porter 
+                                </span>
+
+                                <span class="text-[#ee8f00] text-lg font-semibold" >
+                                    CEO | Founder
+                                </span>
+
+                            </div>
+
+                            <i class="fa-solid fa-quote-right text-xl md:text-3xl md:text-5xl text-[#ee8f00]"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <!-- our office -->
+            <section class="bg-white w-full h-full py-20 flex flex-col md:flex-row md:justify-center md:items-center  md:pr-38 " >
+
+                <!-- containe wrapper -->
+                <div class="flex flex-col md:flex-row md:justify-center md:items-center space-y-14"> 
+                    <!-- img section -->
+                    <div class="w-full relative text-white ">
+    
+                        <img src="/src/imgs/P4.jpg" loading="lazy" alt="two Delivery personnel checking their list" class=" h-[300px] md:h-screen w-full object-cover rounded rounded-lg " data-aos="zoom-in" data-aos-duration="1200">
+                        
+                    </div>
+    
+                    <div class="w-full   text-stone-800 space-y-10  pl-3 md:pl-14 overflow" > <!---content-->
+    
+                        <h4 class="font-extrabold text-[#ee8f00] text-sm tracking-widest uppercase leading-widest " data-aos="zoom-in" data-aos-duration="1200">
+                            Why Chose Us
+                        </h4>
+    
+                            
+                        <h2 class="text-3xl md:text-5xl font-bold  " data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="1300">
+                            Our Offices
+                            <span class=" text-[#ee8f00]">Located</span> All Over The World
+                        </h2>
+    
+                        <!-- section content -->
+                        <div class=" w-full  text-left md:text-justify md:pr-2 space-y-4 " data-aos="zoom-in"   data-aos-delay="400" data-aos-duration="1400">
+    
+                            <p class="w-full px-2 text-stone-500 ">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque volutpat ipsum dolor, vitae venenatis dolor posuere quis.
+                            </p>
+
+                        </div>
+
+                        <!--card-->
+                        <div class=" md:flex flex-col md:flex-row gap-8 w-full space-y-5  overflow"> 
+    
+                            <!--card 1-->
+                            <div class="bg-stone-800 text-stone-400 shadow-xl rounded rounded-lg flex flex-col  md:w-80 py-12 px-6" data-aos="zoom-in"   data-aos-delay="200" data-aos-duration="2000" > 
+
+                                <h3 class="text-[#ee8f00] text-lg md:text-2xl font-bold hover:text-white transition ease-in duration-150" >
+                                    Indonesia
+                                </h3>
+                                <h5 class="hover:text-white text-sm  md:text-md ">
+                                    Head Office
+                                </h5>
+    
+                                <div class="pl-1 md:pl-3 space-y-6  mt-4">
+
+                                    <div class="flex gap-4 ">
+                                        <!-- Address div -->
+                                        <i class="fa-solid fa-house-user text-[#ee8f00] text-xl md:text-2xl"></i>
+                                        <!-- address text -->
+                                        <div>
+                                            <h4 class="text-white text-sm md:text-xl font-bold ">Address </h4>
+                                            <p class="text-sm md:text-md">99 Roving St., Big City, PKU 23456</p>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="flex gap-4 ">
+                                        <!-- phone number div -->
+
+                                        <i class="fa-solid fa-phone text-[#ee8f00] text-xl md:text-2xl"></i>
+
+                                        <!-- address text -->
+                                        <div>
+                                            <h4 class="text-white text-sm md:text-xl font-bold ">Phone Number </h4>
+                                            <p class="text-sm md:text-md">123-234-1234</p>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="flex gap-4 ">
+                                        <!-- phone number div -->
+
+                                        <i class="fa-regular fa-envelope text-[#ee8f00] text-xl md:text-2xl"></i>
+
+                                        <!-- address text -->
+                                        <div>
+                                            <h4 class="text-white text-sm md:text-xl font-bold ">Email Address </h4>
+
+                                            <p class="text-sm md:text-md">
+                                                hello@awesomesite.com
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+    
+                            </div> <!--end of card 1-->
+                            
+                            <!--card 2-->
+                            <div class="bg-stone-800 text-stone-400 shadow-xl rounded rounded-lg  flex flex-col  md:w-80 py-12 px-6" data-aos="zoom-in"   data-aos-delay="400" data-aos-duration="2000"> 
+
+                                <h3 class="text-[#ee8f00] text-lg md:text-2xl font-bold hover:text-white transition ease-in duration-150" >
+                                    Indonesia
+                                </h3>
+                                <h5 class="hover:text-white text-sm  md:text-md">Head Office</h5>
+    
+                                <div class="pl-1 md:pl-3 space-y-6  mt-4">
+
+                                    <div class="flex gap-4 ">
+                                        <!-- Address div -->
+                                        <i class="fa-solid fa-house-user text-[#ee8f00] text-xl md:text-2xl"></i>
+                                        <!-- address text -->
+                                        <div>
+                                            <h4 class="text-white text-sm md:text-xl font-bold">Address </h4>
+                                            <p class="text-sm md:text-md">99 Roving St., Big City, PKU 23456</p>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="flex gap-4 ">
+                                        <!-- phone number div -->
+
+                                        <i class="fa-solid fa-phone text-[#ee8f00] ttext-xl md:text-2xl"></i>
+
+                                        <!-- address text -->
+                                        <div>
+                                            <h4 class="text-white text-sm md:text-xl font-bold ">Phone Number </h4>
+                                            <p class="text-sm md:text-md">123-234-1234</p>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div class="flex gap-4 ">
+                                        <!-- phone number div -->
+
+                                        <i class="fa-regular fa-envelope text-[#ee8f00] text-xl md:text-2xl"></i>
+
+                                        <!-- address text -->
+                                        <div>
+                                            <h4 class="text-white text-sm md:text-xl font-bold ">Email Address </h4>
+                                            <p class="text-sm md:text-md">hello@awesomesite.com</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+    
+                            </div> <!--end of card 2-->
+                            
+    
+                        </div> <!--end of card container-->
+    
+                    </div>
+                    
+                </div>
+
+            </section>
+            
+            <!-- our team centent -->
+            <section class="bg-stone-150 w-full h-full py-20 flex flex-col md:grid md:grid-cols-4 justify-center items-center gap-3 ">
+
+                <div class="overflow-hidden">
+                    <div class="w-full text-stone-800 space-y-7  pl-3 md:pl-14" > <!---content-->
+    
+                        <h4 class="font-extrabold text-[#ee8f00] text-sm tracking-widest uppercase leading-widest " data-aos="fade-right" data-aos-duration="2000">
+                            CarGoo Team
+                        </h4>
+    
+                            
+                        <h2 class="text-4xl md:text-5xl font-bold  " data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">
+                            Our Team
+                        </h2>
+    
+                        <!-- section content -->
+                        <div class=" w-full  text-left md:text-justify md:pr-2 space-y-4 " data-aos="fade-right" data-aos-delay="400" data-aos-duration="2000">
+    
+                            <p class="w-full px-2 text-stone-500 ">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque volutpat ipsum dolor, vitae venenatis dolor posuere quis.
+                            </p>
+
+                            <div class=" flex flex-row justify-start items-center w-full md:w-80 text-xs md:text-base md:w-80 gap-3">
+    
+                                <a href="about_us.html" data-aos="fade-right" data-aos-delay="400" data-aos-duration="2000">
+
+                                    <button class=" py-4 px-3 md:py-4 md:px-4 w-28 md:w-40 bg-[#ee8f00] hover:border-2 hover:border-[#ee8f00] hover:bg-transparent font-bold hover:font-semibold rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] transition ease-in-out duration-150  "> 
+                                        About Us
+                                    </button>
+                                </a>
+                            </div> <!--end of btn div-->
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- our team cards img -->
+                <!-- team card 1 -->
+                <div class="card__img w-full w-[18.75rem] h-[25rem] md:h-[31.25rem] relative  overflow-hidden rounded-lg  " data-aos="flip-left" data-aos-delay="600" data-aos-duration="2000">
+
+                    <div class="bg-stone-800 w-max px-3 py-2 flex flex-col justify-center items-center gap-y-4 absolute right-0 rounded-bl-lg ">
+
+                        <a href="#"><i class="fa-brands fa-facebook social-media"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter social-media"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube social-media"></i></a>
+                    </div>
+
+                    <div class=" absolute bottom-[30px] left-[50px] ">
+                        <h3 class="text-2xl md:text-3xl text-white font-bold">Selina Coleman</h3>
+                        <p class="text-lg text-[#ee8f00] font-semibold ">Stock Manager</p>
+                    </div>
+
+                </div>
+                
+                <!-- team card 2 -->
+                <div class="card__img card_img-2 w-full w-[18.75rem] h-[25rem] md:h-[31.25rem] relative  overflow-hidden rounded-lg  " data-aos="flip-left" data-aos-delay="800" data-aos-duration="2000">
+
+                    <div class="bg-stone-800 w-max px-3 py-2 flex flex-col justify-center items-center gap-y-4 absolute right-0 rounded-bl-lg ">
+
+                        <a href="#"><i class="fa-brands fa-facebook social-media"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter social-media"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube social-media"></i></a>
+                    </div>
+
+                    <div class=" absolute bottom-[30px] left-[50px] ">
+                        <h3 class="text-2xl md:text-3xl text-white font-bold">Adam Warlock</h3>
+                        <p class="text-lg text-[#ee8f00] font-semibold ">Vice Precident</p>
+                    </div>
+
+                </div>
+                
+                <!-- team card 3 -->
+                <div class="card__img card_img-3 w-full w-[18.75rem] h-[25rem] md:h-[31.25rem] relative  overflow-hidden rounded-lg  " data-aos="flip-left" data-aos-delay="1000" data-aos-duration="2000">
+
+                    <div class="bg-stone-800 w-max px-3 py-2 flex flex-col justify-center items-center gap-y-4 absolute right-0 rounded-bl-lg ">
+
+                        <a href="#"><i class="fa-brands fa-facebook social-media"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter social-media"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube social-media"></i></a>
+                    </div>
+
+                    <div class=" absolute bottom-[30px] left-[50px] ">
+                        <h3 class="text-2xl md:text-3xl text-white font-bold">Chloe Leaner</h3>
+                        <p class="text-lg text-[#ee8f00] font-semibold ">Delivery Supervicer </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- our office -->
+            <section class="bg-stone-150 py-20 px-2 md:px-8 w-full  " >
+
+                <div class="w-full flex flex-col justify-center items-center space-y-8 md:space-y-10 ">
+
+                    <h4 class=" font-extrabold text-[#ee8f00] text-sm tracking-[5px] uppercase  " data-aos="zoom-in" data-aos-duration="2000">
+                        Our Office
+                    </h4>
+                        
+                    <h2 class="w-full md:w-[55%] md:text-center text-4xl md:text-6xl font-extrabold leading-10 " data-aos="zoom-in" data-aos-delay="200" data-aos-duration="2000">
+                        Latest <span class=" text-[#ee8f00]">News</span> 
+                    </h2>
+
+                    <!-- section content -->
+                    <div class="w-full md:w-[60%] text-left md:text-justify " data-aos="zoom-in" data-aos-delay="400" data-aos-duration="2000">
+
+                        <p class="w-full text-base px-2 text-stone-500 ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis vulputate dui at fringilla. Pellentesque
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- img card content and image -->
+                <div class=" w-full h-full p-4 flex flex-col md:flex-row justify-center items-center gap-6">
+
+                    <!-- card img 1 -->
+                    <div class="w-full md:w-[24.5rem] md:h-[600px] bg-white shadow-lg p-4 md:p-5 rounded-2xl text-stone-500 hover:text-white hover:bg-stone-800 transition ease-in duration-300 space-y-5  capitalized " data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1200">
+
+                        <img src="/src/imgs/office_1.jpg" loading="lazy" alt=" ship port img" class="w-full md:h-[50%] block object-cover ">
+
+                        <div class="h-full md:h-[50%] md:flex md:flex-col md:justify-around md:items-start space-y-3 md:space-y-0 ">
+                            <!-- office card content -->
+
+                            <h3 class="w-full text-lg md:text-2xl font-bold capitalized "> 
+                                CarGoo  Cargo starts flight
+                                to Bangkok, Thailand, Hanoi
+                            </h3>
+
+                            <p class="w-full pb-3 md:pb-0 text-sm md:text-md md:leading-6 ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic adipisci nihil dolor id vero, fuga accusantium modi placeat ullam.
+                            </p>
+
+                            <a href="single_blog.html" class="text-[#ee8f00] text-lg">
+                                Learn more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- card img 2 -->
+                    <div class="w-full md:w-[24.5rem] md:h-[600px] bg-white shadow-lg p-4 md:p-5 rounded-2xl text-stone-500 hover:text-white hover:bg-stone-800 transition ease-in duration-300 space-y-5 " data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1200">
+
+                        <img src="/src/imgs/office_2.jpg" loading="lazy" alt=" ship port img" class="w-full md:h-[50%] block object-cover ">
+
+                        <div class="h-full md:h-[50%] md:flex md:flex-col md:justify-around md:items-start space-y-3 md:space-y-0 ">
+                            <!-- office card content -->
+
+                            <h3 class="w-full text-lg md:text-2xl font-bold capitalized  "> 
+                                3 Things i learned at the cargo Logistics
+                                Canada Conference
+                            </h3>
+
+                            <p class="w-full pb-3 md:pb-0 text-sm md:text-md md:leading-6 ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic adipisci nihil dolor id vero, fuga accusantium modi placeat ullam.
+                            </p>
+
+                            <a href="single_blog.html" class="text-[#ee8f00] text-lg">
+                                Learn more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                  
+                    <!-- card img 3 -->
+                    <div class="w-full md:w-[24.5rem] md:h-[600px] bg-white shadow-lg p-4 md:p-5 rounded-2xl text-stone-500 hover:text-white hover:bg-stone-800 transition ease-in duration-300 space-y-5 " data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1200">
+
+                        <img src="/src/imgs/office_3.jpg" loading="lazy" alt=" ship port img" class="w-full md:h-[50%] block object-cover ">
+
+                        <div class="h-full md:h-[50%] md:flex md:flex-col md:justify-around md:items-start space-y-3 md:space-y-0 ">
+                            <!-- office card content -->
+
+                            <h3 class="w-full text-lg md:text-2xl font-bold capitalized  "> 
+                                Where’s My Package? The Importance of Cargo Tracking
+                            </h3>
+
+                            <p class="w-full pb-3 md:pb-0 text-sm md:text-md md:leading-6 ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic adipisci nihil dolor id vero, fuga accusantium modi placeat ullam.
+                            </p>
+
+                            <!-- text link -->
+                            <a href="single_blog.html" class="text-[#ee8f00] text-lg">
+                                Learn more <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- footer section -->
+            <footer class="bg-stone-800 pt-20 px-2 md:px-8 w-full h-full md:h-full">
+                <!-- top footer -->
+
+                <div class="flex flex-col justify-center items-center text-center md:text-left md:grid md:grid-cols-4 gap-12 pb-10 ">
+
+                    <!-- first section -->
+                    <div class=" w-full h-full text-stone-200 flex flex-col items-center  justify-center  pace-y-5 ">
+
+                        <div class="flex justify-start items-center gap-3 items-center md:px-2 h-full text-center ">
+                            
+                            <i class="fa-solid fa-location-dot text-[#ee8f00] text-5xl md:text-4xl "> </i>
+
+                            <div class="flex flex-col ">
+                                <h1 class="font-['PT Sans', sans-serif] font-bold text-md text-4xl  ">
+                                    CarGoo
+                                </h1>
+    
+                                <p class="text-xs md:text-md ml-10 font-bold">
+                                    Logistics & <span class="text-[#ee8f00]">Cargo</span>
+                                </p>
+                            </div>
+    
+                        </div>
+
+                        <p class="leading-7 md:leading-8 text-sm md:text-base ">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus qui ad aliquam rerum! Architecto amet id aperiam, totam nemo debitis.
+                        </p>
+
+                        <!-- footer social medies -->
+                        <div class="w-full flex justify-center md:justify-start items-center gap-3 ">
+                            <a href="#"><i class="fa-brands fa-facebook social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram social-media-footer"></i></a>
+                        </div>
+                        
+                    </div>
+
+                    <!-- second footer section -->
+                    <div class=" w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Our Services
+                        </h3>
+        
+                        <ul class=" text-stone-200 text-sm md:text-base space-y-3 list-image-[url(../imgs/icons/check-mark.png)] list-inside font-semibold">
+                            <li><a href="/public/sub-services/export_&_import_service.html">
+                                Export & import
+                            </a></li>
+                            <li><a href="/public/sub-services/domestic_logistic_service.html">
+                                Domestic Logistic
+                            </a></li>
+                            <li><a href="/public/sub-services/customer_clearance_service.html">
+                                Customer Clearance
+                            </a></li>
+                            <li><a href="/public/sub-services/truck_freight.html">
+                                Trucking Feight
+                            </a></li>
+                            <li><a href="/public/sub-services/air_freight.html">
+                                Air Freight
+                            </a></li>
+                            <li><a href="/public/sub-services/ocean_freight.html">
+                                Ocean Freight
+                            </a></li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Third footer section -->
+                    <div class=" w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Our Support
+                        </h3>
+        
+                        <ul class=" text-stone-200 text-sm md:text-base space-y-3 list-image-[url(../imgs/icons/check-mark.png)] list-inside font-semibold">
+                            <li><a href="/public/service.html">Services</a></li>
+                            <li><a href="/public/single_blog.html">FAQs</a></li>
+                            <li><a href="/public/contact_us.html">Contact</a></li>
+                            <li><a href="/public/about_us.html">Terms & Conditions</a></li>
+                            <li><a href="/public/about_us.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- forth footer section -->
+                    <div class="w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Contact Info
+                        </h3>
+        
+                       <!-- contact info content -->
+                       <div class="pl-1 md:pl-3 space-y-6  mt-4">
+
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start  gap-4 ">
+                                <!-- Address div -->
+                                <i class="fa-solid fa-house-user text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Address </h4>
+                                    <p class="text-sm md:text-md text-[#ee8f00] ">99 Roving St., Big City, PKU 23456</p>
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start gap-4 ">
+                                <!-- phone number div -->
+
+                                <i class="fa-solid fa-phone text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Phone Number </h4>
+                                    <p class="text-sm md:text-md text-[#ee8f00] ">123-234-1234</p>
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start gap-4 ">
+                                <!-- phone number div -->
+
+                                <i class="fa-regular fa-envelope text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Email Address </h4>
+
+                                    <p class="text-sm md:text-md text-[#ee8f00]">
+                                        hello@awesomesite.com
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- down footer -->
+                <div class="w-full h-full  border-t-2 border-slate-50 py-5 flex items-center ">
+                    <p class="w-full text-center text-gray-50 text-xs md:text-sm capitalized tracking-wide ">
+                        Copyright 2022 &copy; All Right Resevered Design by WizzyBaby
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+
+
+    </div>
+
+    <!-- AOS cdn script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Script -->
+    <script src="/src/app.js"></script>
+</body>
+</html>

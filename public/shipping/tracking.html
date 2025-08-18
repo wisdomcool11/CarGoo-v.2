@@ -1,0 +1,542 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracking </title>
+  <!-- styles -->
+    <link href="../styles.css" rel="stylesheet">
+
+    <!-- AOS animation on scroll  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/9753f25b53.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="bg-stone-800">
+    
+    <div class="relative bg-stone-800 h-screen w-full">
+        <div class=" bg-[#ee8f00] w-80 h-96 rounded-e-full"> </div>
+        
+        <!-- main container -->
+        <div class="container w-full absolute top-[10%] md:left-[3%] tranform translate-[-50%, -50%] bg-slate-50 rounded rounded-2xl p-3 md:p-8 ">
+
+            <div >
+
+                <header class="w-full relative bg-stone-800 rounded-xl p-2 text-white font-normal flex justify-center items-center gap-2 " data-aos="fade-down" data-aos-easing ="linear" data-aos-duration="1500" >
+
+                    <!-- holds the page title and the nav container together -->
+                    <div class="flex flex-col md:flex-row items-start justify-center md:items-center md:gap-14 px-2 md:w-[900px]  ">
+
+                        <!-- webpage name -->
+                        <div class="flex justify-center gap-1 items-center md:px-2 h-full w-max">
+                            
+                            <i class="fa-solid fa-location-dot text-[#ee8f00] text-lg sm:text-4xl md:5xl "> </i>
+
+                            <a href="/public/index.html">
+                                <h1 class="font-['PT Sans', sans-serif] font-bold sm:text-xl md:text-xl w-full ">
+                                    CarGoo
+                                </h1>
+                            </a>
+
+                        </div>
+    
+                        <!-- nav --> 
+                        <nav class="nav_menu shipping-nav md:block absolute md:top-[100%] md:left-0 z-40  bg-stone-800  md:w-full text-slate-300 font-['PT Sans', sans-serif] font-normal py-2 px-2  mt-2 rounded rounded-b-lg ">
+
+                            <ul class=" md:flex md:flex-row md:justify-around w-full justify-between md:items-center  ">
+
+                                <li class="list_style "><a href="/public/index.html" class="md:px-4 "> Home </a>
+                                </li>
+
+                                <li class="list_style"><a href="/public/about_us.html" >About</a></li>
+
+                                <li class="list_style"><a href="/public/service.html" class=" md:px-4 " >Services</a></li>
+
+                                <li class="list_style"><a href="/public/blog.html" class=" md:px-4 ">Blog</a></li>
+
+                                <li class="list_style"><a href="/public/contact_us.html"  class=" md:px-4 ">Contact</a></li>
+                                
+                                <li class="list_style"><a href="/public/shipping/ship_now.html"  class=" text-white hover:text-[#ee8f00] md:px-4">ship Now</a></li>
+                               
+                                <li class="list_style"><a href="/public/shipping/tracking.html"  class=" md:px-4 ">Track Percel</a></li>
+
+                            </ul>
+                        </nav>
+                        
+                    </div>
+
+                    <!--nav button -->
+                    <div class="w-[200px] flex flex-row justify-between items-center md:px-4 text-xs md:text-base md:w-80 gap-1 ">
+
+                        <a href="/public/signing/log.html" class=" 
+                        py-2 px-3 md:px-3  hover:bg-[#ee8f00] hover:text-stone-800 hover:font-semibold  
+                        hover:rounded-full transform hover:scale-[1.03] active:translate-y-[4px] 
+                        transition ease-in-out duration-150 " > 
+                            Sign In
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                        </a>
+
+                        <a href="/public/contact_us.html" class=" 
+                        py-2 px-3 md:px-3 bg-[#ee8f00] hover:bg-transparent hover:text-white text-stone-800 
+                        font-semibold active:text-[#ee8f00] md:mx-2 rounded-full transform hover:scale-[1.03] 
+                        active:translate-y-[4px] transition ease-in-out duration-150  ">
+                            Contact Us
+
+                            <i class="fa-solid fa-phone"></i> <!--phone icon -->
+                        </a>
+
+                    </div>
+
+                    <div class="toggle_bar "></div>
+                      
+
+                </header><!--ending of header-->
+
+            </div>
+            
+                         <!-- Hero section -->
+            <section class=" w-full my-14 space-y-14  ">   
+
+                <div class="hero__container w-full h-[13.125rem] md:h-[25rem] flex  flex-col md:flex-row gap-7 md:gap-1 justify-center items-center border rounded-b-xl py-24 md:py-0">
+                    <!-- hero section with a huge image and content on it -->
+                     
+                    <div class=" w-full text-white pl-6 md:pl-6 space-y-36 "> 
+
+                        <div class=" w-full flex flex-col gap-8 overflow-hidden">
+
+                            <!-- hero content -->
+
+                            <h1 class="text-4xl md:text-6xl text-white font-extrabold " data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                                Tracking
+                                <span class=" text-[#ee8f00]">...</span>
+                            </h1>
+
+
+                            <div class="  md:w-[500px] leading-7 i  " >
+                                <p class="w-full h-full text-stone-200 font-light text-sm md:text-base  ">
+                                    Our tracking tools give you control over your shipments, 
+                                    by helping you stay informed so you can ship with confidence.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div> <!-- end of hero section -->
+
+            </section>
+            
+            <!-- tracking inputs -->
+            <section class=" w-full md:h-screen  py-20 flex justify-center items-center  ">   
+                <div class="flex flex-col justify-center items-center gap-5">
+
+                    <h2 class="text-2xl md:text-4xl font-extralight text-[#ee8f00] ">
+                        Tracking the way you want
+                    </h2>
+
+                    <div>
+                        <p class="text-stone-500 text-base sm:text-sm text-center font-light ">
+                            Need the status of your shipment or proof of delivery? Enter your tracking number or reference number below
+                        </p>
+                        <div class="js-box w-full grid grid-row-2 grid-cols-2 md:flex justify-center items-center gap-1 md:gap-[0.1rem] mt-6 md:mt-2">
+                            <button class="js-tracking_number tracking--btn  ">Tracking number</button>
+                            <button class="js-track-reference tracking--btn  ">Track by reference</button>
+                            <button class="js-track-tcn tracking--btn">Track by TCN</button>
+                            <button class="js-track-proof tracking--btn  ">Obtain proof of delivery</button>
+                        </div>
+                    </div>
+
+                    <!-- tracking form inputs -->
+                    <div class="flex flex-col justify-center items-center w-full md:w-[600px]">
+
+                        <div class="tracking--option tracking_number js--tracking_number-input  ">
+                            <!-- tracking number -->
+                            <p class="w-full md:w-md text-center text-stone-600 font-light text-sm md:text-lg mx-auto ">
+                                Enter up to 30 of your FedEx tracking, door tag, or FedEx Office order numbers (one per line).
+                            </p>
+
+                            <div class="w-full md:w-[600px] flex flex-col justify-center items-center  ">
+                                
+                                <div class="w-full flex flex-col justify-center items-center p-4">
+                                    <label for="track_number" class="text-stone-600 font-extralight self-start mb-2">
+                                        Tracking number*
+                                    </label>
+
+                                    <input type="text" class="tracking__input--box" >
+                                    <a href="#" class="self-start text-[#007ab7] font-bold text-xs ">NEED HELP?</a>
+                                </div>
+
+                                <button class="submit--tracking">
+                                    Track
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="tracking--option reference_number js--reference_number-input  ">
+                            <!-- reference number -->
+                            <p class="w-full md:w-md text-center text-stone-600 font-light text-lg mx-auto ">
+                                Enter your reference number or purchase order numbers.
+                            </p>
+
+                            <div class="w-full md:w-[600px] flex flex-col justify-center items-center  ">
+                                
+                                <div class="w-full flex flex-col justify-center items-center p-4">
+                                    <div class="w-full" >
+                                        <label for="reference_number" class="text-stone-600 text-sm font-extralight self-start mb-2">
+                                            Reference number*
+                                        </label>
+    
+                                        <input type="text" class="tracking__input--box" >
+                                    </div>
+
+                                    <div class="w-full">
+                                        <label for="destination_territory" class="text-stone-600 text-sm font-extralight self-start mb-2">
+                                            Destination country/territory*
+                                        </label>
+    
+                                        <input type="text" class="tracking__input--box" >
+                                        
+                                    </div>
+                                    <a href="#" class="self-start text-[#007ab7] font-bold text-xs ">NEED HELP?</a>
+                                </div>
+
+                                <button class="submit--tracking">
+                                    Track
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="tracking--option tcn-number js--tcn-number-input ">
+                            <!-- Enter TCN or tracking number* -->
+                            <p class="w-full md:w-md text-center text-stone-600 font-light text-sm md:text-lg mx-auto  ">
+                                Enter your Transportation Control Number (TCN) for government orders.
+                                Do not use any spaces or the letters “TCN” preceding the number.
+                            </p>
+
+                            <div class="w-full md:w-[600px] flex flex-col justify-center items-center  ">
+                                
+                                <div class="w-full flex flex-col justify-center items-center p-4">
+                                    <div class="w-full" >
+                                        <label for="reference_number" class="text-stone-600 text-sm font-extralight self-start mb-2">
+                                            Enter TCN or tracking number*
+                                        </label>
+    
+                                        <input type="text" class="tracking__input--box" >
+                                    </div>
+
+                                    <div class="w-full">
+                                        <label for="destination_territory" class="text-stone-600 text-sm font-extralight self-start mb-2">
+                                            Ship date*
+                                        </label>
+                                        <div class="w-full flex  ">
+                                            <input type="text" class="tracking__input--box" >
+                                           
+                                            <div class="shipment__date  border-2  w-1/3 flex justify-center items-center ">
+                                                <i class="fa-regular fa-calendar text-2xl text-[#ee8f00] "></i>
+                                                <!-- <input type="date" class="border-2"> -->
+                                                 <!-- when this div is clicked it display the date input format to into date -->
+                                            </div>
+                                        </div>
+                                        <p class="text-xs ">
+                                            Please enter the ship date if the package was shipped more than 14 days ago.
+                                        </p>
+                                        
+                                    </div>
+                                    <a href="#" class="self-start text-[#007ab7] font-bold sm:text-xs">NEED HELP?</a>
+                                </div>
+
+                                <button class="submit--tracking">
+                                    Track
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="tracking--option proof-of-delivery js--proof-of-delivery-input  ">
+                            <!-- Enter TCN or tracking number* -->
+                            <p class="w-full md:w-md text-center text-stone-600 font-light text-sm md:text-lg mx-auto  ">
+                                View your proof of delivery, including an image of the recipient’s signature for FedEx Express, 
+                                FedEx Ground and FedEx Freight shipments. You can also get a copy of your FedEx Freight bill of lading.
+                            </p>
+
+                            <div class="w-full md:w-[600px] flex flex-col justify-center items-center  ">
+                                
+                                <div class="w-full flex flex-col justify-center items-center p-4">
+
+                                    <div class="proof  w-full flex justify-between items-center ">
+
+                                        <button class="proof-btn js-proof js-proof__delivery--btn ">
+                                            view proof of delivery
+                                        </button>
+
+                                        <button class="proof-btn js-proof js-proof__lading--btn ">
+                                            view bill of lading
+                                        </button>
+                                    </div>
+
+                                    <div class="w-full flex justify-center items-center gap-2 p-4">
+                                        
+                                        <div class="js--view__delivery w-full flex flex-col justify-center items-center  " >
+                                            <div>
+                                                <p class="w-full md:w-md text-center text-stone-600 font-light text-lg ">
+                                                   Enter up to 30 of your FedEx tracking numbers
+                                                </p>
+   
+                                               <label for="reference_number" class="text-stone-600 text-sm font-extralight self-start mb-2">
+                                                   Enter TCN or tracking number*
+                                               </label>
+           
+                                               <input type="text" class="tracking__input--box" >
+
+                                            </div>
+
+                                            <a href="#" class="self-start ml-0 md:ml-11 text-[#007ab7] font-bold text-xs ">
+                                                NEED HELP?
+                                            </a>
+
+                                            <button class="submit--tracking">
+                                                Track
+                                            </button>
+                                        </div>
+    
+                                        <div class="js--view__lading  w-full h-[100px] mt-5 text-center "> 
+                                            <a href="/public/signing/log.html" class="text-[#007ab7] font-bold text-base " >
+                                                LOGIN TO ACCESS BILL OF LADING
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+           
+            <section class=" w-full h-full md:h-screen py-20 flex flex-col justify-center items-center gap-2 border-t-2 border-stone-300 ">
+
+                <h2 class=" text-2xl md:text-4xl font-extralight ">
+                    Tracking Options
+                </h2>
+                
+                <div class="tracking--option__container  ">
+                    
+                    <div class="tracking--option-card ">
+                        <h3 class="tracking--option_card_heading">
+                            FedEx Tracking
+                        </h3>
+                        <p class="tracking--option_card_parah ">
+                            FedEx Tracking, the tool at the top of your page gives you shipment updates in just one click. 
+                            A tool built for speed, simplicity and convenience. Save your shipments straight to our homepage, 
+                            so you don't have to log in to find out where your packages are.
+                        </p>
+                    </div>
+
+                    <div class="tracking--option-card " >
+                        <h3 class="tracking--option_card_heading">Key Benefits</h3>
+                        <ul class="tracking--option_card_list">
+                            <li>Track in near real time without logging in</li>
+                            <li>Get an update in one click on the homepage</li>
+                            <li>Save your shipments for quick updates in near real time</li>
+                            <li>See all your shipments on one clear interface</li>
+                            <li>Create nicknames for our simplest search experience</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tracking--option__container  ">
+                    
+                    <div class="tracking--option-card ">
+                        <h3 class="tracking--option_card_heading">
+                            FedEx Tracking
+                        </h3>
+                        <p class="tracking--option_card_parah ">
+                            FedEx Tracking, the tool at the top of your page gives you shipment updates in just one click. 
+                            A tool built for speed, simplicity and convenience. Save your shipments straight to our homepage, 
+                            so you don't have to log in to find out where your packages are.
+                        </p>
+                    </div>
+
+                    <div class="tracking--option-card " >
+                        <h3 class="tracking--option_card_heading">Key Benefits</h3>
+                        <ul class="tracking--option_card_list">
+                            <li>Track in near real time without logging in</li>
+                            <li>Get an update in one click on the homepage</li>
+                            <li>Save your shipments for quick updates in near real time</li>
+                            <li>See all your shipments on one clear interface</li>
+                            <li>Create nicknames for our simplest search experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- footer section -->
+            <footer class="bg-stone-800 pt-20 px-2 md:px-8 w-full h-full md:h-full">
+                <!-- top footer -->
+
+                <div class="flex flex-col justify-center items-center text-center md:text-left md:grid md:grid-cols-4 gap-12 pb-10 ">
+
+                    <!-- first section -->
+                    <div class=" w-full h-full text-stone-200 flex flex-col items-center  justify-center  pace-y-5 ">
+
+                        <div class="flex justify-start items-center gap-3 items-center md:px-2 h-full text-center ">
+                            
+                            <i class="fa-solid fa-location-dot text-[#ee8f00] text-5xl md:text-4xl "> </i>
+
+                            <div class="flex flex-col ">
+                                <h1 class="font-['PT Sans', sans-serif] font-bold text-md text-4xl  ">
+                                    CarGoo
+                                </h1>
+    
+                                <p class="text-xs md:text-md ml-10 font-bold">
+                                    Logistics & <span class="text-[#ee8f00]">Cargo</span>
+                                </p>
+                            </div>
+    
+                        </div>
+
+                        <p class="leading-7 md:leading-8 text-sm md:text-base ">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus qui ad aliquam rerum! Architecto amet id aperiam, totam nemo debitis.
+                        </p>
+
+                        <!-- footer social medies -->
+                        <div class="w-full flex justify-center md:justify-start items-center gap-3 ">
+                            <a href="#"><i class="fa-brands fa-facebook social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube social-media-footer"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram social-media-footer"></i></a>
+                        </div>
+                        
+                    </div>
+
+                    <!-- second footer section -->
+                    <div class=" w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Our Services
+                        </h3>
+        
+                        <ul class=" text-stone-200 text-sm md:text-base space-y-3 list-image-[url(../imgs/icons/check-mark.png)] list-inside font-semibold">
+                            <li><a href="/public/sub-services/export_&_import_service.html">
+                                Export & import
+                            </a></li>
+                            <li><a href="/public/sub-services/domestic_logistic_service.html">
+                                Domestic Logistic
+                            </a></li>
+                            <li><a href="/public/sub-services/customer_clearance_service.html">
+                                Customer Clearance
+                            </a></li>
+                            <li><a href="/public/sub-services/truck_freight.html">
+                                Trucking Feight
+                            </a></li>
+                            <li><a href="/public/sub-services/air_freight.html">
+                                Air Freight
+                            </a></li>
+                            <li><a href="/public/sub-services/ocean_freight.html">
+                                Ocean Freight
+                            </a></li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Third footer section -->
+                    <div class=" w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Our Support
+                        </h3>
+        
+                        <ul class=" text-stone-200 text-sm md:text-base space-y-3 list-image-[url(../imgs/icons/check-mark.png)] list-inside font-semibold">
+                            <li><a href="/public/service.html">Services</a></li>
+                            <li><a href="/public/single_blog.html">FAQs</a></li>
+                            <li><a href="/public/contact_us.html">Contact</a></li>
+                            <li><a href="/public/about_us.html">Terms & Conditions</a></li>
+                            <li><a href="/public/about_us.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- forth footer section -->
+                    <div class="w-full h-full space-y-7">
+
+                        <h3 class=" font-['PT Sans', sans-serif] font-bold text-md text-2xl text-white ">
+                            Contact Info
+                        </h3>
+        
+                       <!-- contact info content -->
+                       <div class="pl-1 md:pl-3 space-y-6  mt-4">
+
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start  gap-4 ">
+                                <!-- Address div -->
+                                <i class="fa-solid fa-house-user text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Address </h4>
+                                    <p class="text-sm md:text-md text-[#ee8f00] ">99 Roving St., Big City, PKU 23456</p>
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start gap-4 ">
+                                <!-- phone number div -->
+
+                                <i class="fa-solid fa-phone text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Phone Number </h4>
+                                    <p class="text-sm md:text-md text-[#ee8f00] ">123-234-1234</p>
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col md:flex-row justify-center md:justify-start gap-4 ">
+                                <!-- phone number div -->
+
+                                <i class="fa-regular fa-envelope text-[#ee8f00] text-3xl md:text-2xl"></i>
+
+                                <!-- address text -->
+                                <div>
+                                    <h4 class="text-white text-sm md:text-xl font-bold ">Email Address </h4>
+
+                                    <p class="text-sm md:text-md text-[#ee8f00]">
+                                        hello@awesomesite.com
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- down footer -->
+                <div class="w-full h-full  border-t-2 border-slate-50 py-5 flex items-center ">
+                    <p class="w-full text-center text-gray-50 text-xs md:text-sm capitalized tracking-wide ">
+                        Copyright 2022 &copy; All Right Resevered Design by WizzyBaby
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+
+
+    </div>
+
+    <!-- AOS cdn script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Script -->
+    <script src="/src/sub-app/tracking.js" ></script>
+    <script  src="/src/app.js"></script>
+    
+</body>
+</html>
