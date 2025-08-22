@@ -270,17 +270,11 @@
   .col-start-3 {
     grid-column-start: 3;
   }
-  .col-end-1 {
-    grid-column-end: 1;
-  }
   .col-end-2 {
     grid-column-end: 2;
   }
   .col-end-3 {
     grid-column-end: 3;
-  }
-  .row-span-2 {
-    grid-row: span 2 / span 2;
   }
   .row-start-1 {
     grid-row-start: 1;
@@ -293,9 +287,6 @@
   }
   .row-start-4 {
     grid-row-start: 4;
-  }
-  .row-end-1 {
-    grid-row-end: 1;
   }
   .row-end-3 {
     grid-row-end: 3;
@@ -468,14 +459,8 @@
   .grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-  .grid-rows-1 {
-    grid-template-rows: repeat(1, minmax(0, 1fr));
-  }
   .grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-  .grid-rows-3 {
-    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
   .flex-col {
     flex-direction: column;
@@ -498,9 +483,6 @@
   .justify-center {
     justify-content: center;
   }
-  .justify-center-safe {
-    justify-content: safe center;
-  }
   .justify-start {
     justify-content: flex-start;
   }
@@ -509,9 +491,6 @@
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
-  }
-  .gap-2\.5 {
-    gap: calc(var(--spacing) * 2.5);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -533,9 +512,6 @@
   }
   .gap-9 {
     gap: calc(var(--spacing) * 9);
-  }
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
   }
   .gap-12 {
     gap: calc(var(--spacing) * 12);

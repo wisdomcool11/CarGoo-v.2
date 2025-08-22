@@ -408,6 +408,8 @@ function validateSignIn (){
         
         // when user is found saved
         localStorage.setItem("loggedInUser", JSON.stringify(userFound))
+         window.location.href = " /public/user-page/profile.html ";
+        // when detail are confirm move to the log in page
 
     } else {
         console.log("Incorrect Info");
