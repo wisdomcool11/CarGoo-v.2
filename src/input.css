@@ -146,7 +146,7 @@ hr{
 .hero__container{
     background-image: linear-gradient(
         rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50%
-    ) ,url('/src/imgs/bg-bg.webp')  ;
+    ) ,url('./src/imgs/bg-bg.webp')  ;
 
     /* background-image: url('imgs/bg-bg.webp'); */
     background-repeat:  no-repeat;
