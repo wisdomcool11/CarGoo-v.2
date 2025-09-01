@@ -215,7 +215,7 @@ hr{
 .card__img{
     background-image: linear-gradient(
         rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50%
-    ) ,url(/src/imgs/test_001.jpg)  ;
+    ) ,url(../src/imgs/test_001.jpg)  ;
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: left;
@@ -224,12 +224,12 @@ hr{
 .card_img-2{
     background-image: linear-gradient(
         rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50%
-    ) ,url(/src/imgs/test_002.jpg)  ;
+    ) ,url(../src/imgs/test_002.jpg)  ;
 }
 .card_img-3{
     background-image: linear-gradient(
         rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50%
-    ) ,url(/src/imgs/test_003.jpg)  ;
+    ) ,url(../src/imgs/test_003.jpg)  ;
 }
 
 /* card image icon */
@@ -250,7 +250,7 @@ hr{
     padding: 2rem;
     background-image: linear-gradient(
         to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%
-    ) ,url('/src/imgs/hero-bg.webp');
+    ) ,url('../src/imgs/hero-bg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -560,6 +560,11 @@ hr{
     border-radius: 1rem;
     box-shadow: 0px 2px 3px  #ccc;
     position: relative;
+}
+
+/* remove the display none in the contact information page */
+.form-visible{
+    display: block;
 }
 
 .signUp,
@@ -970,7 +975,16 @@ hr{
   @apply w-full flex flex-col md:grid md:grid-flow-col md:grid-rows-2 gap-2
 }
 
-/* profile tool warning icons */
+.profile--tool__container_edit{
+    @apply h-full
+}
+
+.profile-log-tool{ 
+    @apply md:flex md:flex-col
+}
+
+
+/* profile tool icons */
 .profile-icon{
     @apply text-2xl text-[#ee8f00]
 }
@@ -991,7 +1005,11 @@ hr{
 }
 
 .contact--info__card{
-    @apply h-[300px]
+    @apply h-screen
+}
+
+.tool-card_edit{
+    @apply h-full
 }
 
 .tool-card__two-step-psw{
@@ -1004,6 +1022,21 @@ hr{
     @apply md:w-[480px] text-lg font-bold
 }
 
+.two-step,.two-step_verification {
+    @apply hidden
+}
+
+.two-step h3{
+    @apply text-stone-600 text-2xl
+}
+.two-step-box{
+    @apply flex flex-col gap-2
+}
+
+.two-step-box-para{
+    @apply text-xs font-extrabold
+}
+
 .tool-link{
     @apply absolute top-[48px] right-[20px] font-extrabold
 }
@@ -1012,5 +1045,15 @@ hr{
 .admin--text{
     @apply text-base text-stone-500
 }
+
+/* contact information page styling the forms */
+.tool-card_edit{
+    @apply w-[600px] h-auto 
+}
+.contact-form_edit{
+    @apply w-full h-full
+}
+
+
 
 

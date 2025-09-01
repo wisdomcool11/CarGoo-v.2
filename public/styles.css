@@ -663,6 +663,10 @@
     border-style: var(--tw-border-style);
     border-width: 3px;
   }
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
+  }
   .border-t-2 {
     border-top-style: var(--tw-border-style);
     border-top-width: 2px;
@@ -738,9 +742,6 @@
   .object-left {
     object-position: left;
   }
-  .p-1 {
-    padding: calc(var(--spacing) * 1);
-  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -776,6 +777,9 @@
   }
   .px-\[15px\] {
     padding-inline: 15px;
+  }
+  .py-1 {
+    padding-block: calc(var(--spacing) * 1);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -993,6 +997,9 @@
   }
   .no-underline {
     text-decoration-line: none;
+  }
+  .underline {
+    text-decoration-line: underline;
   }
   .opacity-80 {
     opacity: 80%;
@@ -1560,6 +1567,11 @@
       }
     }
   }
+  .md\:rounded-2xl {
+    @media (width >= 48rem) {
+      border-radius: var(--radius-2xl);
+    }
+  }
   .md\:p-3 {
     @media (width >= 48rem) {
       padding: calc(var(--spacing) * 3);
@@ -2107,16 +2119,16 @@ hr {
   }
 }
 .card__img {
-  background-image: linear-gradient( rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50% ) ,url(/src/imgs/test_001.jpg);
+  background-image: linear-gradient( rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50% ) ,url(../src/imgs/test_001.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 .card_img-2 {
-  background-image: linear-gradient( rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50% ) ,url(/src/imgs/test_002.jpg);
+  background-image: linear-gradient( rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50% ) ,url(../src/imgs/test_002.jpg);
 }
 .card_img-3 {
-  background-image: linear-gradient( rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50% ) ,url(/src/imgs/test_003.jpg);
+  background-image: linear-gradient( rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50% ) ,url(../src/imgs/test_003.jpg);
 }
 .social-media {
   font-size: var(--text-xl);
@@ -2166,7 +2178,7 @@ hr {
   width: 100%;
   height: auto;
   padding: 2rem;
-  background-image: linear-gradient( to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50% ) ,url('/src/imgs/hero-bg.webp');
+  background-image: linear-gradient( to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50% ) ,url('../src/imgs/hero-bg.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2427,6 +2439,9 @@ hr {
   border-radius: 1rem;
   box-shadow: 0px 2px 3px #ccc;
   position: relative;
+}
+.form-visible {
+  display: block;
 }
 .signUp, .signIn {
   position: absolute;
@@ -3029,6 +3044,17 @@ hr {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 }
+.profile--tool__container_edit {
+  height: 100%;
+}
+.profile-log-tool {
+  @media (width >= 48rem) {
+    display: flex;
+  }
+  @media (width >= 48rem) {
+    flex-direction: column;
+  }
+}
 .profile-icon {
   font-size: var(--text-2xl);
   line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -3078,7 +3104,10 @@ hr {
   align-items: center;
 }
 .contact--info__card {
-  height: 300px;
+  height: 100vh;
+}
+.tool-card_edit {
+  height: 100%;
 }
 .tool-card__two-step-psw {
   height: 100%;
@@ -3099,6 +3128,25 @@ hr {
     width: 480px;
   }
 }
+.two-step,.two-step_verification {
+  display: none;
+}
+.two-step h3 {
+  font-size: var(--text-2xl);
+  line-height: var(--tw-leading, var(--text-2xl--line-height));
+  color: var(--color-stone-600);
+}
+.two-step-box {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 2);
+}
+.two-step-box-para {
+  font-size: var(--text-xs);
+  line-height: var(--tw-leading, var(--text-xs--line-height));
+  --tw-font-weight: var(--font-weight-extrabold);
+  font-weight: var(--font-weight-extrabold);
+}
 .tool-link {
   position: absolute;
   top: 48px;
@@ -3110,6 +3158,14 @@ hr {
   font-size: var(--text-base);
   line-height: var(--tw-leading, var(--text-base--line-height));
   color: var(--color-stone-500);
+}
+.tool-card_edit {
+  height: auto;
+  width: 600px;
+}
+.contact-form_edit {
+  height: 100%;
+  width: 100%;
 }
 @property --tw-rotate-x {
   syntax: "*";

@@ -107,11 +107,11 @@
                     <div class=" w-full md:w-[300px] h-full space-y-7 bg-stone-800 flex flex-col justify-center items-center p-8 rounded-xl">
         
                         <ul class="sub-profile__menu-list self-start space-y-5 list-image-[url(/src/imgs/icons/check-mark.png)] list-inside">
-                            <li><a href="/public/user-page/profile.html" >OVERVIEW</a></li>
+                            <li><a href="/public/user-page/profile.html">OVERVIEW</a></li>
                             <hr class="sub-divider ">
-                            <li><a href="/public/user-page/log_&_security.html" class="text-[#ee8f00]">LOGIN & SECURITY</a></li>
+                            <li><a href="/public/user-page/log_&_security.html">LOGIN & SECURITY</a></li>
                             <hr class="sub-divider ">
-                            <li><a href="/public/user-page/contact_info.html">CONTACT INFORMATION</a></li>
+                            <li><a href="/public/user-page/contact_info.html" class="text-[#ee8f00]">CONTACT INFORMATION</a></li>
                             <hr class="sub-divider ">
                             <li><a href="/public/user-page/account_payment.html">ACCOUNTS & PAYMENTS</a></li>
                             <hr class="sub-divider ">
@@ -131,87 +131,125 @@
                     <div class="space-y-4">
 
                         <h2 class="text-xl md:text-5xl font-light text-stone-800">
-                            Login & Security
+                           Contact Information
                         </h2>
 
                         <!-- icons of calender and listing  -->
-                        <div class="w-full flex items-center gap-1">
+                        <!-- <div class="w-full flex items-center gap-1">
                             <i class="fa-solid fa-circle-user "></i> 
-                            <h5 class="text-stone-500">Manage your login information, security settings and trusted devices</h5>
-                        </div>
+                        </div> -->
 
-                        <div class="profile--tool__container profile-log-tool p-4 md:p-8 rounded-xl  md:rounded-2xl  space-y-8 md:space-y-0 ">
+                        <div class="profile--tool__container_edit  ">
 
                             <!-- tool card 1 -->
-                            <div class="tool-card ">
+                            <div class="tool-card tool-card_edit contact--info__card ">
+
                                <i class="fa-solid fa-circle-user profile-icon"></i> 
-                                <h3>Login information</h3>
-                                <div class="flex flex-col gap-2">
-                                    <div class=" font-bold ">
-                                        USER ID: <span class="ml-4 font-normal ">user name</span>
+                                <h3>Contact name and address</h3>
+
+                                <form action="#" id="js-contact-form_edit" class="contact-form_edit">
+                                    <!-- first name -->
+                                    <div class="input-control">
+                                        <label for="firstName-edit" class="input-label">First Name</label>
+                                        <input type="text" placeholder="Wisdom" id="firstName-edit" name="firstName-edit" >
+                                        <div class="error"></div>
                                     </div>
-                                    <div class="flex items-center font-bold">
-                                        PASSWORD: <span class="ml-4 font-normal ">*********</span>
+                                   
+                                    <!-- last name -->
+                                    <div class="input-control">
+                                        <label for="lastName-edit" class="input-label">Last Name</label>
+                                        <input type="text" placeholder="Aghabie" id="lastName-edit" name="lastName-edit" >
+                                        <div class="error"></div>
                                     </div>
-                                </div>
-                                <a href="#" class="tool-link self-start text-[#007ab7] font-bold text-xs ">UPDATE</a>
-                            </div >
 
-                            <!-- tool card 2  -->
-                            <div class="tool-card tool-card__two-step-psw">
-                               <i class="fa-solid fa-lock profile-icon"></i>
-                                <h3>Two-step verification</h3>
-                                <p>
-                                    For enhanced security, we will ask you for your password and a one-time verification code. 
-                                    Choose when you want to use two-step verification. CarGoo may override these settings and 
-                                    require verification when we detect suspicious behavior.
-                                </p>
-                                <a href="#" class="tool-link self-start text-[#007ab7] font-bold text-xs ">ADD</a>
-                                <div class="w-full">
-                                    <h4>Two-step verification at login</h4>
-
-                                    <div class="w-full  md:w-[80%] flex justify-between">
-                                        Enable two-step verification at login.
-
-                                        <span class="border-4 border-stone-300 py-1 px-2 rounded-[100%]">
-                                            <input type="checkbox" class="js-two-step__btn">
-                                        </span>
+                                    <!-- country/territory -->
+                                    <div class="input-control">
+                                        <label for="country-edit" class="input-label">Country/Territory</label>
+                                        <select name="nig" id="country" class="border-2 p-2 " >
+                                            <option value="nig" >Nigeria</option>
+                                            <option value="uk">London</option>
+                                            <option value="use">United State Of America</option>
+                                            <option value="can">Canada</option>
+                                            <option value="aug">Austriala</option>
+                                        </select>
+                                        <div class="error"></div>
                                     </div>
-                                </div>
-                            </div >
 
-                            <!-- tool card 3  -->
-                            <div class="js-chose_method_verification tool-card tool-card__two-step-psw two-step">
-        
-                                <h3 >Default verification method</h3>
-                                <p>
-                                    Choose your preferred way to receive your code. You can manage your 
-                                    email address and phone number(s) on the <a href="/public/user-page/contact_info.html" class="text-stone-500 underline">
-                                        contact information</a> page.
-                                </p>
+                                    <!-- Address line 1 -->
+                                    <div class="input-control">
+                                        <label for="address1-edit" class="input-label">Address Line 1</label>
+                                        <input type="text" placeholder="Optional..." id="address1-edit" name="address-edit" >
+                                        <div class="error"></div>
+                                    </div>
 
-                                <div class="two-step-box " >
+                                    <!-- Address line 2 -->
+                                    <div class="input-control">
+                                        <label for="address2-edit" class="input-label">Address Line 2(Optional)</label>
+                                        <input type="text" placeholder="Optional..." id="address2-edit" name="address2-edit" >
+                                        <div class="error"></div>
+                                    </div>
+
+                                    <!-- Postal code-->
+                                    <div class="input-control">
+                                        <label for="postal_code" class="input-label">Postal code (Optional)</label>
+                                        <input type="text" placeholder="900001" id="postal_code" name="postal_code" >
+                                        <div class="error"></div>
+                                    </div>
+
+                                    <!-- City-->
+                                    <div class="input-control">
+                                        <label for="city" class="input-label">City</label>
+                                        <input type="text" placeholder="Ikeja" id="city" name="city" >
+                                        <div class="error"></div>
+                                    </div>
+
                                     <div>
-                                        <input type="radio" name="verification-method" id="email-check" checked>
-                                        <label for="email-check" >Email</label>
-                                    </div>
-                                    <p class=" two-step-box-para">wisdomcool11@gmail.com</p>
-                                </div>
-                                
-                                <div class="two-step-box  " >
-                                    <div>
-                                        <input type="radio" name="verification-method" id="phone-check">
-                                        <label for="phone-check">Phone</label>
-                                    </div>
-                                    <p>
-                                        Receive your verification code in a text message to your mobile number. 
-                                        The number must be SMS enabled to receive the reply. By selecting this 
-                                        method you agree to the CarGoo <a href="/public/user-page/term_&_condition.html" class="text-stone-500 underline" >terms and conditions</a>. Message and data rates 
-                                        may apply.
-                                    </p>
-                                    <p class="twtwo-step-box-para">+234 9065267379</p>
-                                </div>
+                                        <div>
+                                            <!-- primary number -->
+                                            <div class="input-control">
+                                                <label for="country_code" class="input-label">Country Code</label>
+                                                <input type="text" id="city" name="country_coode" placeholder="+234" >
+                                                <div class="error"></div>
+                                            </div>
+                                            
+                                            <div class="input-control">
+                                                <label for="primary_phone" class="input-label">Primary Phone Number</label>
+                                                <input type="text"  id="primary_phone" name="primary_phone" placeholder="8012345678" >
+                                                <div class="error"></div>
+                                            </div>
+                                        </div>
 
+                                        <div>
+                                            <!-- secondary number -->
+                                            <div class="input-control">
+                                                <label for="country_code" class="input-label">Country Code</label>
+                                                <input type="text" id="city" name="country_coode" placeholder="+234" >
+                                                <div class="error"></div>
+                                            </div>
+                                            
+                                            <div class="input-control">
+                                                <label for="secondary_phone" class="input-label">Secondary Phone Number(Optional)</label>
+                                                <input type="text"  id="secondary_phone" name="secondary_phone" placeholder="8012345678" >
+                                                <div class="error"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- email -->
+                                    <div class="input-control">
+                                        <label for="email-edit" class="input-label">Email</label>
+                                        <input type="text" placeholder="@mail.com" id="email-edit" name="email-edit" >
+                                        <div class="error"></div>
+                                    </div>
+
+                                     
+                                    <!-- submit button --><!-- submit button -->
+                                    <button type="submit" id="form-btn">
+                                        Submit
+                                    </button>
+                                </form>
+
+                                <!-- <a href="#" class="tool-link self-start text-[#007ab7] font-bold text-xs ">Edit</a> -->
                             </div >
 
                         </div>
@@ -381,7 +419,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Script -->
-     <script src="/src/sub-app/two_step_ver.js" ></script>
     <script src="/src/app.js"></script>
 </body>
 </html>
