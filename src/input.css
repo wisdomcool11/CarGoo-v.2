@@ -148,7 +148,7 @@ hr{
         rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50%
     ) ,url(/src/imgs/bg-bg.webp)  ;
 
-    /* background-image: url('imgs/bg-bg.webp'); */
+    /* background-image: url('imgs/bg-bg.webp'); ieus */
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
