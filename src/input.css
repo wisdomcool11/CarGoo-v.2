@@ -146,7 +146,7 @@ hr{
 .hero__container{
     background-image: linear-gradient(
         rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50%
-    ) ,url(/src/imgs/bg-bg.webp)  ;
+    ) ,url(./src/imgs/bg-bg.webp)  ;
 
     /* background-image: url('imgs/bg-bg.webp'); ieus */
     background-repeat:  no-repeat;
@@ -653,7 +653,7 @@ hr{
 .rating-section{
     background-image: linear-gradient(
         rgba(0,0,0, 0.5)50%, rgb(0,0, 0 , 0.5)50%
-    ) ,url(/src/imgs/port-de-barcelona.jpg)  ;
+    ) ,url(../src/imgs/port-de-barcelona.jpg)  ;
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: left;
