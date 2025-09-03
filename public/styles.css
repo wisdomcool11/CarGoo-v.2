@@ -1989,14 +1989,11 @@ hr {
   transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
 }
 .hero__container {
-  background-image: linear-gradient( rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50% ) ,url('/src/imgs/bg-bg.webp');
+  background-image: linear-gradient( rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50% ) ,url(/src/imgs/bg-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.shipping__admin--hero {
-  background-image: linear-gradient( rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50% ) ,url(' /src/imgs/user-imgs/ship_admin_hero.jpg ');
 }
 .box_card {
   position: relative;
