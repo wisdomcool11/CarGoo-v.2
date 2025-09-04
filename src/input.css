@@ -144,10 +144,10 @@ hr{
 
 /* hero container  styling image bg*/
 .hero__container{
-    background-image: linear-gradient(
-        rgba(0,0,0, 0.6)50%, rgb(0,0, 0 , 0.6)50%
-    ) ,url(./src/imgs/bg-bg.webp)  ;
 
+    background-image: linear-gradient(
+        to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%
+    ) ,url('../imgs/hero-bg.webp');
     /* background-image: url('imgs/bg-bg.webp'); ieus */
     background-repeat:  no-repeat;
     background-size: cover;
@@ -250,7 +250,7 @@ hr{
     padding: 2rem;
     background-image: linear-gradient(
         to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%
-    ) ,url('../src/imgs/hero-bg.webp');
+    ) ,url('../src/imgs/bg-bg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
