@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Single blog</title>
   <!-- styles -->
-    <link href="./styles.css" rel="stylesheet">
+    <link href="./public/styles.css" rel="stylesheet">
 
     <!-- AOS animation on scroll  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -48,26 +48,26 @@
 
                             <ul class="flex flex-row md:justify-around j w-full justify-between md:items-center  ">
 
-                                <li class="list_style "><a href="/index.html" class=" md:px-4  "> Home </a>
+                                <li class="list_style "><a href="index.html" class=" md:px-4  "> Home </a>
                                 </li>
 
-                                <li class="list_style"><a href="/public/about_us.html" >About</a>
+                                <li class="list_style"><a href="about_us.html" >About</a>
                                 </li>
 
-                                <li class="list_style"><a href="/public/service.html" class=" md:px-4 " >Services</a></li>
+                                <li class="list_style"><a href="service.html" class=" md:px-4 " >Services</a></li>
 
-                                <li class="list_style"><a href="/public/blog.html" class=" md:px-4 text-white hover:text-[#ee8f00]">Blog</a></li>
+                                <li class="list_style"><a href="blog.html" class=" md:px-4 text-white hover:text-[#ee8f00]">Blog</a></li>
 
-                                <li class="list_style"><a href="/public/contact_us.html"  class=" md:px-4 ">Contact</a></li>
+                                <li class="list_style"><a href="contact_us.html"  class=" md:px-4 ">Contact</a></li>
 
                             </ul>
                         </nav>
                     </div>
 
                     <!--nav button -->
-                    <div class="w-[200px] flex flex-row justify-between items-center md:px-4  text-xs md:text-base md:w-80 gap-1 ">
+                    <div class="w-[200px] flex flex-row justify-between items-center md:px-4 text-xs md:text-base md:w-80 gap-1 ">
 
-                        <a href="log.html" class=" py-2 px-3 md:px-3  hover:bg-[#ee8f00] hover:text-stone-800 hover:font-semibold  hover:rounded-full transform hover:scale-[1.03] active:translate-y-[4px] transition ease-in-out duration-150 " > 
+                        <a href="./public/signing/log.html" class=" py-2 px-3 md:px-3  hover:bg-[#ee8f00] hover:text-stone-800 hover:font-semibold  hover:rounded-full transform hover:scale-[1.03] active:translate-y-[4px] transition ease-in-out duration-150 " > 
                             Sign In
                             <i class="fa-solid fa-right-to-bracket"></i>
                         </a>
@@ -105,12 +105,11 @@
 
 
                             <div>
-                                <a href="/index.html"><span class=" text-[#ee8f00] font-semibold text-base hover:underline ">Home</span></a> /
+                                <a href="index.html"><span class=" text-[#ee8f00] font-semibold text-base hover:underline ">Home</span></a> /
                                 <a href="#" class="text-base font-extrabold text-white">Single Blog</a>
                             </div>
 
                         </div>
-
 
                     </div>
                 </div> <!-- end of hero section -->
@@ -147,9 +146,9 @@
                             Ask more about the services you need and get best offer.
                         </h3>
 
-                        <div class=" flex flex-row justify-center items-center w-full md:w-80 text-xs md:text-base md:w-80 gap-3">
+                        <div class=" flex flex-row justify-center items-center w-full text-xs md:text-base md:w-80 gap-3">
     
-                            <a href="/public/contact_us.html">
+                            <a href="contact_us.html">
 
                                 <button class="js-single__blog-contact-btn py-3 px-3 md:py-4 md:px-4 w-28 md:w-40 bg-[#ee8f00] hover:border-2 hover:border-[#ee8f00] hover:bg-transparent hover:font-semibold hover:text-[#ee8f00] rounded-lg transform hover:scale-[0.8] active:translate-y-[4px] transition ease-in-out duration-150  "> 
                                     Contact Us
@@ -182,7 +181,8 @@
                 <div class="w-full md:w-2/3 h-full space-y-6 ">
                     
                     <!-- img -->
-                    <img src="/src/imgs/icons/warehouse-standard.jpg" alt="company image hawk view">
+
+                    <img src="/src/imgs/warehouse-standard.png" alt="company image hawk view">
 
                     <!-- content -->
                     <div class="space-y-4">
@@ -359,9 +359,10 @@
     </div>
 
     <!-- AOS cdn script -->
+        <!-- AOS cdn script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <!-- Script -->
-    <script src="/src/app.js"></script>
+    <script src="src/app.js"></script>
 </body>
 </html>
